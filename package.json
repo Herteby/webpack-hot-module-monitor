@@ -1,0 +1,19 @@
+{
+  "name": "webpack-hot-module-monitor",
+  "version": "1.0.0",
+  "description": "Prints a message in the browser console to let you know that Hot Module Replacement is done",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Herteby/webpack-hot-module-monitor.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Simon Herteby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Herteby/webpack-hot-module-monitor/issues"
+  },
+  "homepage": "https://github.com/Herteby/webpack-hot-module-monitor#readme"
+}
