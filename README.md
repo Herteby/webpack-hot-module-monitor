@@ -1,7 +1,8 @@
 # webpack-hot-module-monitor 🔥
-Prints a message in the browser console to let you know that Hot Module Replacement is done
+Just a small development experience improvement.
+Prints a message in the browser console to let you know that Hot Module Replacement is done.
 
-[Live demo](https://codesandbox.io/s/94rz54rv6o)
+[Live demo](https://codesandbox.io/s/zll5vv3nql)
 
 ### Screenshot
 ![screenshot](https://github.com/Herteby/webpack-hot-module-monitor/blob/master/screenshot.png)
@@ -15,9 +16,7 @@ import monitor from 'webpack-hot-module-monitor'
 
 monitor() //That's it!
 ```
-By default, it also clears the console after each reload. This means that you always know that any errors/messages in the console are from the latest version. No irrelevant junk left behind.
-
-If you don't want this, you can turn it off:
+By default, it also clears the console after each reload. This means that you always know that any errors/messages in the console are from the latest version. If you don't want this, you can turn it off:
 ```javascript
 monitor({clear:false})
 ```
